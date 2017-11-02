@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*reset start  样式重置*/
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none; box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+/*屏幕适配*/
+@media screen and (device-width: 320px){
+            html{
+                font-size: 16px;
+            }
+}
+@media screen and (device-width: 360px){
+            html{
+                font-size: 18px;
+            }
+        }
+@media screen and (device-width: 375px){
+            html{
+             font-size: 18.75px;
+            }
+        }
+@media screen and (device-width: 414px){
+            html{
+                font-size: 20.07px;
+			}
+		}
